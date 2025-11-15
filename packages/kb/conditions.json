@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Common Cold",
+    "description": "Runny nose, cough, mild fever, sore throat, sneezing, nasal congestion"
+  },
+  {
+    "name": "Influenza (Flu)",
+    "description": "High fever, body aches, chills, headache, dry cough, fatigue"
+  },
+  {
+    "name": "COVID-19",
+    "description": "Fever, dry cough, fatigue, loss of taste or smell, shortness of breath"
+  },
+  {
+    "name": "Migraine",
+    "description": "Severe headache, nausea, vomiting, sensitivity to light or sound, throbbing pain"
+  },
+  {
+    "name": "Tension Headache",
+    "description": "Dull head pressure, tight band sensation around head, stress-related headache"
+  },
+  {
+    "name": "Sinusitis",
+    "description": "Facial pressure, nasal congestion, thick mucus, headache, reduced sense of smell"
+  },
+  {
+    "name": "Acid Reflux (GERD)",
+    "description": "Burning chest pain, sour taste, regurgitation, worsening after meals"
+  },
+  {
+    "name": "Gastritis",
+    "description": "Upper abdominal pain, nausea, bloating, indigestion, fullness after meals"
+  },
+  {
+    "name": "Food Poisoning",
+    "description": "Vomiting, diarrhea, stomach cramps, fever, nausea after eating contaminated food"
+  },
+  {
+    "name": "Irritable Bowel Syndrome (IBS)",
+    "description": "Abdominal cramps, bloating, gas, irregular bowel habits, stress-triggered symptoms"
+  },
+  {
+    "name": "Appendicitis",
+    "description": "Severe right lower abdominal pain, nausea, fever, loss of appetite"
+  },
+  {
+    "name": "Pneumonia",
+    "description": "Cough with phlegm, fever, chest discomfort, difficulty breathing, fatigue"
+  },
+  {
+    "name": "Bronchitis",
+    "description": "Persistent cough, chest tightness, wheezing, mucus production"
+  },
+  {
+    "name": "Asthma Attack",
+    "description": "Shortness of breath, wheezing, chest tightness, coughing, triggered by allergens"
+  },
+  {
+    "name": "Allergic Rhinitis",
+    "description": "Sneezing, itchy eyes, runny nose, nasal congestion triggered by allergens"
+  },
+  {
+    "name": "Urinary Tract Infection",
+    "description": "Burning urination, increased frequency, cloudy urine, lower abdominal pain"
+  },
+  {
+    "name": "Kidney Stone",
+    "description": "Severe flank pain, vomiting, painful urination, blood in urine"
+  },
+  {
+    "name": "Dehydration",
+    "description": "Extreme thirst, dizziness, dry mouth, fatigue, dark urine"
+  },
+  {
+    "name": "Anxiety Attack",
+    "description": "Rapid heartbeat, shortness of breath, trembling, fear, chest tightness"
+  },
+  {
+    "name": "Panic Attack",
+    "description": "Sudden fear, chest pain, dizziness, tingling, feeling of losing control"
+  },
+  {
+    "name": "Depression",
+    "description": "Persistent sadness, fatigue, loss of interest, sleep changes, appetite changes"
+  },
+  {
+    "name": "Hypertension",
+    "description": "Headache, blurred vision, chest pressure, dizziness, often asymptomatic"
+  },
+  {
+    "name": "Diabetes (High Blood Sugar)",
+    "description": "Excessive urination, thirst, fatigue, blurred vision, slow healing wounds"
+  },
+  {
+    "name": "Hypoglycemia (Low Blood Sugar)",
+    "description": "Dizziness, sweating, confusion, hunger, shaking"
+  },
+  {
+    "name": "Ear Infection",
+    "description": "Ear pain, fever, hearing difficulty, fluid drainage, irritability"
+  },
+  {
+    "name": "Conjunctivitis (Pink Eye)",
+    "description": "Red watery eyes, itching, discharge, irritation, contagious infection"
+  },
+  {
+    "name": "Skin Allergy (Dermatitis)",
+    "description": "Red itchy rash, swelling, irritation, dryness, triggered by allergens"
+  },
+  {
+    "name": "Cellulitis",
+    "description": "Red swollen skin, warmth, pain, fever, spreading infection"
+  },
+  {
+    "name": "Chickenpox",
+    "description": "Itchy red blisters, fever, rash spreading across body"
+  },
+  {
+    "name": "Dengue Fever",
+    "description": "High fever, body pain, joint pain, rash, headache behind eyes"
+  },
+  {
+    "name": "Malaria",
+    "description": "High fever, chills, sweating, headache, vomiting"
+  },
+  {
+    "name": "Typhoid Fever",
+    "description": "High fever, abdominal pain, headache, weakness, diarrhea or constipation"
+  },
+  {
+    "name": "Stroke",
+    "description": "Facial drooping, slurred speech, sudden weakness on one side, confusion"
+  },
+  {
+    "name": "Heart Attack",
+    "description": "Chest pain, left arm pain, sweating, shortness of breath, pressure sensation"
+  },
+  {
+    "name": "Hyperthyroidism",
+    "description": "Weight loss, tremors, irritability, rapid heartbeat, heat intolerance"
+  },
+  {
+    "name": "Hypothyroidism",
+    "description": "Fatigue, weight gain, cold intolerance, dry skin, constipation"
+  },
+  {
+    "name": "Osteoarthritis",
+    "description": "Joint pain, stiffness, reduced mobility, worse with activity"
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "description": "Joint swelling, stiffness, fatigue, pain in multiple joints"
+  },
+  {
+    "name": "Vertigo",
+    "description": "Spinning sensation, dizziness, balance issues, nausea"
+  },
+  {
+    "name": "Meningitis",
+    "description": "Severe headache, neck stiffness, fever, light sensitivity"
+  }
+]
