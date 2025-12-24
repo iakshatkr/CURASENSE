@@ -3,6 +3,7 @@ import re
 import time
 import hashlib
 import asyncio
+import json
 from typing import List, Optional
 
 import uvicorn
@@ -157,7 +158,21 @@ async def triage(req: TriageRequest):
     # 1) Rule-based red-flag checks (existing)
     rf_user = detect_red_flags(user_text) or []
     rf_kb = kb_check_red_flags(user_text) or []
-    combined_rf = list(dict.fromkeys(rf_user + rf_kb))  # uniq preserve order
+
+    # ----- FIX: dedupe list-of-dicts while preserving order -----
+    seen = set()
+    combined_rf = []
+    for item in (rf_user + rf_kb):
+        # Use JSON serialization for a stable, comparable key
+        try:
+            key = json.dumps(item, sort_keys=True)
+        except (TypeError, ValueError):
+            # Fallback to repr if something inside item is not JSON-serializable
+            key = repr(item)
+        if key not in seen:
+            seen.add(key)
+            combined_rf.append(item)
+    # -----------------------------------------------------------
 
     if combined_rf:
         return {
@@ -212,7 +227,7 @@ async def triage(req: TriageRequest):
     import random
     delay = random.uniform(3, 5)
     await asyncio.sleep(delay)
-    
+
     return response
 
 
